@@ -1,5 +1,5 @@
 name: Code Coverage
-run-name: ${{ github.actor }} is launching unit tests 🚀
+run-name: Code Coverage
 on: [push, pull_request]
 jobs:
   build:
