@@ -22,5 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install reflect-metadata
+        run: npm install reflect-metadata
+
       - name: Run the tests
         run: npm test -- --coverage
