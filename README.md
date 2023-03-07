@@ -1,1 +1,1 @@
-![GitHub CI](https://github.com/charleshetier/c-inject/actions/workflows/coverage.yml/badge.svg)
+![GitHub CI](https://github.com/charleshetier/c-inject/actions/workflows/ci.yml/badge.svg)

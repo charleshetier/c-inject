@@ -2,13 +2,13 @@ name: Code Coverage
 run-name: Code Coverage
 on: [push, pull_request]
 jobs:
-  build:
+  unit-test:
 
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [18.x]
 
     steps:
       - name: Checkout repository
@@ -26,4 +26,4 @@ jobs:
         run: npm install reflect-metadata
 
       - name: Run the tests
-        run: npm test -- --coverage
+        run: npm test

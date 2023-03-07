@@ -5,8 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage",
-    "coverage": "vitest run --coverage"
+    "test:coverage": "npm test --- --coverage"
   },
   "author": "",
   "license": "ISC",
