@@ -1,5 +1,5 @@
-name: Code Coverage
-run-name: Code Coverage
+name: CI
+run-name: CI
 on: [push, pull_request]
 jobs:
   unit-test:
